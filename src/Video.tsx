@@ -1,7 +1,7 @@
 import './style.css';
 import { Still, Composition } from 'remotion';
 import { Mattm9yMeta } from './mattm9yMeta/MetaCard';
-import { MeltEmoji } from './meltEmoji';
+import { StillTest } from './stillTest';
 
 export const RemotionVideo: React.FC = () => {
 	return (
@@ -14,7 +14,7 @@ export const RemotionVideo: React.FC = () => {
 				durationInFrames={125}
 				fps={23}
 			/>
-			<Still id="MeltEmoji" component={MeltEmoji} width={200} height={200} />
+			<Still id="StillTest" component={StillTest} width={600} height={600} />
 		</>
 	);
 };
